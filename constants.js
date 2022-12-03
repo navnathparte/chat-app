@@ -8,7 +8,7 @@ const constantsInfo = {
 };
 
 (function () {
-    Object.entries(constantsInfo).forEach((ent) => {
+  Object.entries(constantsInfo).forEach((ent) => {
     if (!ent[1] || (ent[1] && ent[1].toString().trim() === ""))
       throw new Error("Please provide proper env variables");
   });

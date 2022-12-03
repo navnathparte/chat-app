@@ -7,6 +7,7 @@ import cors from "cors";
 
 // routes
 import AuthRoute from "./routes/AuthRoute.js";
+import UserRoute from './routes/UserRoute.js'
 
 const app = express();
 
